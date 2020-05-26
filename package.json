@@ -1,4 +1,5 @@
 {
+  "publisher": "jamiec",
   "name": "jummidark-vscode",
   "displayName": "jummidark-vscode",
   "description": "A Material based dark UI and syntax color theme based on my vim configuration",
