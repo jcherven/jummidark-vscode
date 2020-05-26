@@ -1,4 +1,5 @@
 {
+  "repository": "https://github.com/jcherven/jummidark-vscode.git",
   "publisher": "jamiec",
   "name": "jummidark-vscode",
   "displayName": "jummidark-vscode",
