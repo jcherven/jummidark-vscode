@@ -1,0 +1,210 @@
+{
+  "name": "jummidark",
+  "type": "dark",
+  "colors": {
+    "titleBar.activeBackground": "#262626",
+    "titleBar.inactiveBackground": "#262626",
+    "titleBar.activeForeground": "#e1e1e1",
+    "titleBar.inactiveForeground": "#e1e1e1",
+    "editor.background": "#262626",
+    "editor.foreground": "#e1e1e1",
+    "editorGroupHeader.tabsBackground": "#262626",
+    "editorGroupHeader.tabsBorder": "#56d0bd",
+    "tab.inactiveBackground": "#383838",
+    "tab.activeBackground": "#b1951d",
+    "tab.activeForeground": "#080808",
+    "activityBarBadge.background": "#262626",
+    "sideBarTitle.foreground": "#e1e1e1",
+    "sideBar.background": "#262626",
+    "sideBarSectionHeader.background": "#383838",
+    "sideBarSectionHeader.foreground": "#e1e1e1",
+    "descriptionForeground": "#56d0bd",
+    "activityBar.background": "#262626",
+    "activityBar.foreground": "#e1e1e1",
+    "activityBarBadge.foreground": "#e1e1e1",
+    "widget.shadow": "#56d0bd",
+    "selection.background": "#FFFFFF",
+    "contrastBorder": "#383838",
+    "statusBar.background": "#b1951d",
+    "statusBar.foreground": "#303030"
+  },
+  "tokenColors": [
+    {
+      "name": "Light Purple",
+      "scope": [
+        "keyword",
+        "storage.modifier",
+        "string",
+        "support.type",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#bb86fc"
+      }
+    },
+    {
+      "name": "Dark Purple",
+      "scope": [
+        "entity.other.attribute-name",
+        "storage.type",
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name",
+        "punctuation.separator.inheritance.php",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "support.other.variable",
+        "entity.other.attribute-name.class",
+        "string.other.link",
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
+
+      "settings": {
+        "foreground": "#b26eff"
+      }
+    },
+    {
+      "name": "Miku Green",
+      "scope": [
+        "keyword.control",
+        "string.regexp",
+        "entity.other.attribute-name.id",
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+
+      "settings": {
+        "foreground": "#04dac5"
+      }
+    },
+    {
+      "name": "Dark Red",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#ff4081"
+      }
+    },
+    {
+      "name": "Pink",
+      "scope": ["variable.language", "punctuation.section.embedded"],
+
+      "settings": {
+        "foreground": "#cf6679"
+      }
+    },
+    {
+      "name": "High Gray",
+      "scope": [
+        "punctuation",
+        "support.class",
+        "meta.block variable.other",
+        "variable.parameter",
+        "meta.tag",
+        "support.constant",
+        "constant.other.color",
+        "constant.language",
+        "constant.character",
+        "constant.escape",
+        "keyword.other.unit",
+        "keyword.other",
+        "variable",
+        "string constant.other.placeholder",
+        "constant.other.symbol",
+        "constant.other.key",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "foreground": "#e1e1e1"
+      }
+    },
+    {
+      "name": "Medium Gray",
+      "scope": [
+        "constant.numeric",
+        "entity.name.function",
+        "entity.name",
+        "entity.other.inherited-class",
+        "support.function",
+        "meta.function-call",
+        "variable.function",
+        "keyword.other.special-method",
+        "entity.name.tag",
+
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js",
+        "entity.name.method.js",
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor",
+        "constant.character.escape",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name",
+        "source.sass keyword.control"
+      ],
+      "settings": {
+        "foreground": "#b2b2b2"
+      }
+    },
+    {
+      "name": "Low Gray",
+      "scope": [
+        "punctuation.definition.tag",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter",
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#4e4e4e"
+      }
+    },
+    {
+      "name": "DiffAdd",
+      "scope": ["markup.inserted"],
+      "settings": { "foreground": "#00d7d7" }
+    },
+    {
+      "name": "DiffChange",
+      "scope": ["markup.changed"],
+      "settings": { "foreground": "#b26eff" }
+    },
+    {
+      "name": "DiffDelete",
+      "scope": ["markup.deleted"],
+      "settings": { "foreground": "#ff4081" }
+    },
+    { "name": "Background", "scope": [], "settings": {} },
+    { "name": "Line", "scope": [], "settings": {} },
+    { "name": "Select", "scope": [], "settings": {} },
+    { "name": "Underline", "scope": [], "settings": {} },
+    { "name": "Disabled", "scope": [], "settings": {} },
+    { "name": "Folded and Column", "scope": [], "settings": {} },
+    { "name": "Tab", "scope": [], "settings": {} },
+
+    {
+      "name": "ES7 Bind Operator",
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#FF5370"
+      }
+    }
+  ]
+}

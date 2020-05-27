@@ -16,7 +16,7 @@
       {
         "label": "jummidark",
         "uiTheme": "vs-dark",
-        "path": "./themes/jummidark.json"
+        "path": "./themes/jummidark-color-theme.json"
       }
     ]
   }
