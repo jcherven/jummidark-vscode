@@ -1,5 +1,7 @@
-# jummidark-vscode
+# Jummidark UI and syntax for VSCode
 
-Work in progress. Screenshots and full readme will be available later.
+A unique and somewhat minimal dark UI and syntax theme. Based on my personal vim configuration. Includes terminal colors.
 
-A dark UI and syntax theme for VSCode. Based on my personal vim configs. Not guaranteed to vibe with you, your tooling, or your workflow. It's very personalized for my preferences and needs but I have received positive feedback from exactly one other vim user on it.
+![jummidark UI and syntax highlighting screenshot](./assets/jummidark-vscode-specimen.png)
+
+Shown here: VSCode UI with a React component set in 16pt Dina on MacOS
