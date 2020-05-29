@@ -78,7 +78,7 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Light Purple",
+			"name": "High Purple",
 			"settings": { "foreground": "#af87ff" },
 			"scope": [
 				"keyword",
@@ -93,7 +93,7 @@
 			]
 		},
 		{
-			"name": "Dark Purple",
+			"name": "Low Purple",
 			"settings": { "foreground": "#af5fff" },
 			"scope": [
 				"entity.other.attribute-name",
@@ -112,7 +112,7 @@
 			]
 		},
 		{
-			"name": "Miku Green",
+			"name": "High Green",
 			"settings": { "foreground": "#04dac5" },
 			"scope": [
 				"keyword.control",
@@ -122,14 +122,14 @@
 			]
 		},
 		{
-			"name": "Dark Red",
+			"name": "Low Red",
 			"settings": { "foreground": "#d7005f" },
-			"scope": ["invalid", "invalid.illegal"]
+			"scope": ["variable.language", "punctuation.section.embedded"]
 		},
 		{
-			"name": "Pink",
+			"name": "High Red",
 			"settings": { "foreground": "#d75f87" },
-			"scope": ["variable.language", "punctuation.section.embedded"]
+			"scope": ["invalid", "invalid.illegal"]
 		},
 		{
 			"name": "High Gray",
@@ -157,7 +157,7 @@
 			]
 		},
 		{
-			"name": "Medium Gray",
+			"name": "Middle Gray",
 			"settings": { "foreground": "#b2b2b2" },
 			"scope": [
 				"constant.numeric",
@@ -223,7 +223,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#d75f87"
+				"foreground": "#d7005f"
 			}
 		}
 	]
