@@ -4,7 +4,7 @@
 	"name": "jummidark-vscode",
 	"displayName": "jummidark-vscode",
 	"description": "A unique, somewhat minimal dark UI and syntax color theme based on my personal vim configuration",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
