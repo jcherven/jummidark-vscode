@@ -4,7 +4,7 @@
 	"name": "jummiterm-vscode",
 	"displayName": "Jummiterm VSCode Color Themes",
 	"description": "A light and dark set of VSCode color themes based on my personal vim and terminal colorschemes",
-	"version": "0.3.2",
+	"version": "0.3.5",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
