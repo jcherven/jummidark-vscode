@@ -1,9 +1,9 @@
 {
 	"repository": "https://github.com/jcherven/jummidark-vscode.git",
-	"publisher": "jamiec",
-	"name": "jummidark-vscode",
-	"displayName": "jummidark-vscode",
-	"description": "A unique, somewhat minimal dark UI and syntax color theme based on my personal vim configuration",
+	"publisher": "jummiterm",
+	"name": "jummiterm-vscode",
+	"displayName": "Jummiterm VSCode Color Themes",
+	"description": "A light and dark set of VSCode color themes based on my personal vim and terminal colorschemes",
 	"version": "0.3.2",
 	"engines": {
 		"vscode": "^1.45.0"
@@ -16,7 +16,12 @@
 			{
 				"label": "jummidark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/jummidark-color-theme.json"
+				"path": "./themes/jummidark-vscode.json"
+			},
+			{
+				"label": "jummilight",
+				"uiTheme": "vs",
+				"path": "./themes/jummilight-vscode.json"
 			}
 		]
 	}
